@@ -2,7 +2,7 @@
 
 year = int(input("Введите год: "))
 
-if year % 4 == 0 or (year % 4 == 0 and year % 100 == 0 and year % 400 == 0):
-    print("Это високосный год!")
+if year % 4 != 0 or (year % 4 == 0 and year % 100 == 0 and year % 400 != 0):
+    print("Это невисокосный год!")
 else:
-    print("Это невисокосный год")
+    print("Это високосный год")

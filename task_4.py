@@ -15,3 +15,4 @@ for i in set(range1):
         max_count = count
 
 print(f"Число {max_number} встречается {max_count} раз")
+
